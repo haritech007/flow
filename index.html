@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html dir="" lang="">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title></title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+<link href="css/base.css" rel="stylesheet"/>
+<link href="css/header.css" rel="stylesheet"/>
+<link href="css/banner.css" rel="stylesheet"/>
+<link href="css/footer.css" rel="stylesheet"/>
+
+
+</head>
+<body>
+
+<header>
+  <div class="header__alert wrapper header__alert--text-center">
+    <div class="container">Signups today and get 30% instant discount. Condition Apply.</div>
+  </div>
+
+  <!--start header top -->
+  <div class="header__top">
+    <div class="container">
+      <div class="header__top__container">
+        <div id="top-links-left" class="nav pull-left">
+          <ul class="list-inline">
+            <li><a href=""><span class="hidden-xs hidden-sm hidden-md">Need Help?</span></a></li>
+            <li><a href="" title=""><span class="hidden-xs hidden-sm hidden-md">Call +9821658272</span></a></li>
+       
+          </ul>
+        </div>
+        <div id="top-links-right" class="nav pull-right">
+          <ul class="list-inline">
+           <li><a href=""><span class="hidden-xs hidden-sm hidden-md">FAQs</span></a></li>
+           <li><a href="" title=""><span class="hidden-xs hidden-sm hidden-md">Documentation</span></a></li>
+           <li><a href="" title=""><span class="hidden-xs hidden-sm hidden-md">Help</span></a></li>
+         </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end header top -->
+
+  <!-- start header bottom -->
+  <div class="header__bottom">
+    <div class="container">
+      <div class="header__bottom__container">
+        <!-- menu icon for mobile-->
+        <div class="header__icon__menu">
+          <span class="menu-icon" onclick = "show_menu()">
+            <svg width="19" height="13" viewBox="0 0 19 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.125 12.75V11.1875H18.875V12.75H0.125ZM0.125 7.28125V5.71875H18.875V7.28125H0.125ZM0.125 1.8125V0.25H18.875V1.8125H0.125Z" fill="black"/>
+            </svg>
+         </span>
+        </div>
+        <!-- header logo -->
+        <div class="header__logo"> 
+          <a href="">
+            <svg width="58" height="26" viewBox="0 0 58 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7.48438 25H2.95312V6.79688C2.95312 5.47396 3.22917 4.35938 3.78125 3.45312C4.33333 2.53646 5.13021 1.84375 6.17188 1.375C7.21354 0.90625 8.46875 0.671875 9.9375 0.671875C10.5521 0.671875 11.3177 0.703125 12.2344 0.765625C13.1615 0.817708 14.1042 0.885417 15.0625 0.96875C16.0312 1.04167 16.8802 1.11979 17.6094 1.20312L15.7344 4.75C14.7969 4.58333 13.8958 4.45312 13.0312 4.35938C12.1667 4.26562 11.3438 4.21875 10.5625 4.21875C9.89583 4.21875 9.33333 4.31771 8.875 4.51562C8.41667 4.71354 8.06771 5.00521 7.82812 5.39062C7.59896 5.76562 7.48438 6.23438 7.48438 6.79688V25ZM13.1094 25V1.20312H17.6094V25H13.1094ZM10.8594 8.09375V11.2812H0.4375V8.09375H10.8594ZM19.0562 16.7188V16.3906C19.0562 15.151 19.2333 14.0104 19.5875 12.9688C19.9417 11.9167 20.4573 11.0052 21.1344 10.2344C21.8115 9.46354 22.6448 8.86458 23.6344 8.4375C24.624 8 25.7594 7.78125 27.0406 7.78125C28.3219 7.78125 29.4625 8 30.4625 8.4375C31.4625 8.86458 32.301 9.46354 32.9781 10.2344C33.6656 11.0052 34.1865 11.9167 34.5406 12.9688C34.8948 14.0104 35.0719 15.151 35.0719 16.3906V16.7188C35.0719 17.9479 34.8948 19.0885 34.5406 20.1406C34.1865 21.1823 33.6656 22.0938 32.9781 22.875C32.301 23.6458 31.4677 24.2448 30.4781 24.6719C29.4885 25.099 28.3531 25.3125 27.0719 25.3125C25.7906 25.3125 24.65 25.099 23.65 24.6719C22.6604 24.2448 21.8219 23.6458 21.1344 22.875C20.4573 22.0938 19.9417 21.1823 19.5875 20.1406C19.2333 19.0885 19.0562 17.9479 19.0562 16.7188ZM23.5562 16.3906V16.7188C23.5562 17.4271 23.6187 18.0885 23.7437 18.7031C23.8687 19.3177 24.0667 19.8594 24.3375 20.3281C24.6187 20.7865 24.9833 21.1458 25.4312 21.4062C25.8792 21.6667 26.426 21.7969 27.0719 21.7969C27.6969 21.7969 28.2333 21.6667 28.6812 21.4062C29.1292 21.1458 29.4885 20.7865 29.7594 20.3281C30.0302 19.8594 30.2281 19.3177 30.3531 18.7031C30.4885 18.0885 30.5562 17.4271 30.5562 16.7188V16.3906C30.5562 15.7031 30.4885 15.0573 30.3531 14.4531C30.2281 13.8385 30.025 13.2969 29.7437 12.8281C29.4729 12.349 29.1135 11.974 28.6656 11.7031C28.2177 11.4323 27.676 11.2969 27.0406 11.2969C26.4052 11.2969 25.8635 11.4323 25.4156 11.7031C24.9781 11.974 24.6187 12.349 24.3375 12.8281C24.0667 13.2969 23.8687 13.8385 23.7437 14.4531C23.6187 15.0573 23.5562 15.7031 23.5562 16.3906ZM41.0656 20.625L44.5812 8.09375H47.4406L46.5187 13.0156L43.0031 25H40.6125L41.0656 20.625ZM39.2844 8.09375L41.8 20.6094L42.0344 25H39.2219L34.9406 8.09375H39.2844ZM50.6594 20.4062L53.1125 8.09375H57.4719L53.1906 25H50.3937L50.6594 20.4062ZM47.8312 8.09375L51.3312 20.5312L51.8156 25H49.4094L45.8937 13.0312L45.0031 8.09375H47.8312Z" fill="#0066FF"/>
+            </svg> 
+          </a>
+        </div>
+        <!-- menu -->
+        <div class=menu-dropdown id="menu-dropdown">
+          <div class="header__nav" id="header__dropdown">
+            <ul>
+              <li><a href="" class="header__nav__links">About </a></li>
+              <li><a href="" class="header__nav__links">Contact</a></li>
+              <li><a href="" class="header__nav__links">Services</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- header button -->
+        <div class="header__nav__login">
+          <a href="" class="header__nav__links">Login</a>
+          <a class="btn">Start a Free Trial</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--end header bottom -->
+</header>
+<!-- end header section -->
+
+<!-- start banner section -->
+<div class="banner__main__container">
+  <div class="container">
+    <div class="banner__wrap__container">
+      <div class="banner__container">
+          <!-- start banner left section -->
+          <div class="banner__content">
+            <div class="banner__heading heading ">
+              Get Your Business Online with flow
+            </div>
+            <div class="banner-description description">
+              Build your business with flow to sell online, offline, and everywhere in between.
+            </div>
+            <div class="banner-button">
+              <a class="btn visible-lg">Start a Free Trial</a>
+              <a href="" class="banner__nav__links">Customer Story</a> 
+               <button class="banner__play__button">
+                <svg width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9.64697 5.23529L0.823444 10.3296L0.823444 0.141021L9.64697 5.23529Z" fill="#0066FF"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <!-- end banner left section -->
+          <!-- start banner right section -->
+          <div class="banner__image__container">
+            <div class="banner-img">
+              <img width="500"  src="https://cdn.pixabay.com/photo/2015/09/16/08/55/online-942408_960_720.jpg">
+            </div>
+          </div>
+          <!-- end banner right section -->
+        </div>
+      </div>
+    </div>  
+  </div>   
+</div>
+<!-- end banner section -->
+</body>
+<script type="text/javascript">
+  function show_menu() {
+    document.getElementById('menu-dropdown').style.display='block';
+  }
+</script>
+
+
+
