@@ -1,1 +1,78 @@
-s
+:root {
+  --color-dark: #242424;
+  --color-bright: #ffffff;
+  --color-dark-gray: #cccccc;
+  --color-dark-gray:#546277;
+  --color-orange:#FF8A00;
+   --color-dark-blue: #004AA7;
+    --color-dark-black: #000000;
+
+
+  --padding-container-lg: 4em;
+  --padding-container-xs: 1em;
+
+  --weight-text-regular: 400;
+  --weight-text-light: 300;
+  --weight-text-bold: 600;
+
+  --color-border: var(--color-light-gray)
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: var(--weight-text-regular);
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  padding-left: var(--padding-container-xs);
+  padding-right: var(--padding-container-xs);
+}
+.heading {
+ font-family: 'Roboto Slab';
+ font-size:35px;
+ font-weight: 300;
+ 
+}
+.text_left{
+text-align:left;
+}
+.text_center{
+text-align:center;
+
+}
+.description{
+  
+  font-family:Roboto;
+  color:lightgray;
+
+}
+@media (min-width: 768px) {
+  .container {
+    padding-left: var(--padding-container-lg);
+    padding-right: var(--padding-container-lg);
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: 1440px;
+  }
+}
